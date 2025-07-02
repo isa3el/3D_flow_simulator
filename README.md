@@ -27,7 +27,7 @@ onde:
 
 As propriedades fluido-rocha variam com a pressão segundo as expressões:
 
-- $\mu(p) &= \mu_{\text{ref}} \cdot e^{c_{\mu}(p - p_{\text{ref}})} $
+- $\mu(p) &= \mu_{\text{ref}} \cdot e^{c_{\mu}(p - p_{\text{ref}})}$
 - $\rho(p) &= \rho_{\text{ref}} \cdot \left(1 + c_f(p - p_{\text{ref}})\right)$
 - $\phi(p) &= \phi_{\text{ref}} \cdot \left(1 + c_r(p - p_{\text{ref}})\right)$
 
