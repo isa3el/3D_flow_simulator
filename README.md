@@ -28,15 +28,15 @@ onde:
 As propriedades fluido-rocha variam com a pressão segundo as expressões:
 
 $$
-\mu(p) = \mu_{\text{ref}} \cdot e^{c_{\mu}(p - p_{\text{ref}})}
+\phi(p) = \phi_{\text{ref}} \left(1 + c_r(p - p_{\text{ref}})\right)
 $$
 
 $$
-\rho(p) = \rho_{\text{ref}} \cdot \left(1 + c_f(p - p_{\text{ref}})\right)
+\mu(p) = \mu_{\text{ref}} + c_\mu(p - p_{\text{ref}})
 $$
 
 $$
-\phi(p) = \phi_{\text{ref}} \cdot \left(1 + c_r(p - p_{\text{ref}})\right)
+\rho(p) = \rho_{\text{ref}} \left(1 + c_f(p - p_{\text{ref}})\right)
 $$
 
 ## Discretização
