@@ -3,7 +3,7 @@
 Trabalho 02 da disciplina MAT2490  
 Aluna Isabel Gonçalves - 2312237
 
-Este simulador modela o escoamento monofásico em um meio poroso tridimensional (3D), considerando **viscosidade, densidade e porosidade dependentes da pressão**, além de **acoplamento vertical entre camadas**.
+Este simulador modela o escoamento monofásico em um meio poroso tridimensional (3D), considerando **viscosidade, densidade e porosidade dependentes da pressão**.
 
 ### Fundamentos Matemáticos
 
@@ -25,7 +25,6 @@ onde:
 ## Propriedades Dependentes da Pressão
 
 As propriedades fluido-rocha variam com a pressão segundo as expressões:
-
 
 - $\mu(p) &= \mu_{\text{ref}} \cdot e^{c_{\mu}(p - p_{\text{ref}})} $
 - $\rho(p) &= \rho_{\text{ref}} \cdot \left(1 + c_f(p - p_{\text{ref}})\right)$
