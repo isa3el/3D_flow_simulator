@@ -10,8 +10,9 @@ Este simulador modela o escoamento monofásico em um meio poroso tridimensional 
 O modelo se baseia na **Lei de Darcy generalizada** e na conservação de massa. A equação governante é:
 
 $$
-\nabla \cdot \mathbf{q} = q_s,
-\quad \text{com} \quad
+\nabla \cdot \mathbf{q} = q_s
+$$
+$$
 \mathbf{q} = -\frac{\mathbf{K}}{\mu(p)} \nabla p
 $$
 
