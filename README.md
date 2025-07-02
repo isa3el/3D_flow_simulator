@@ -53,7 +53,7 @@ resolvidos plano a plano, com acoplamento vertical sendo incorporado aos termos 
 
 ## Poços
 
-Poços podem ser especificados com controle por pressão ou vazão, agora com localização completa (i, j, **k**). O índice do plano perfurado é considerado nos cálculos de acoplamento e `Well Index`.
+Poços podem ser especificados com controle por pressão ou vazão, agora com localização completa (i, j, k). O índice do plano perfurado é considerado nos cálculos de acoplamento e `Well Index`.
 
 A vazão é computada como:
 
