@@ -1,0 +1,24 @@
+=== INFORMAÇÕES DO MODELO ===
+Dimensões da malha: NX=60, NY=60, NZ=3
+dx: [50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
+dy: [50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
+dz: [50.0, 50.0, 50.0]
+Altura base (h): 10.0 m
+Viscosidade de referência (mu_ref): 1.0 cP
+Densidade de referência (rho_ref): 800.0 kg/m³
+Pressão de referência (p_ref): 300.0 kPa
+Coef. viscosidade (c_mu): 0.001 cP/kPa
+Compressibilidade do fluido (c_f): 5e-05 1/kPa
+Compressibilidade da rocha (c_r): 2e-05 1/kPa
+
+=== RESULTADOS DOS POÇOS ===
+ k   i   j tipo       controle    pressao_kPa   vazao_m3_dia
+ 1  19   3 INJETOR    VAZAO            259.05         500.00
+ 0  49  21 INJETOR    VAZAO            258.09         420.00
+ 2  47  33 INJETOR    VAZAO            258.24         450.00
+ 1  28  54 INJETOR    VAZAO            258.94         550.00
+ 1   5  17 PRODUTOR   PRESSAO          265.00        3613.65
+ 2  27  17 PRODUTOR   PRESSAO          250.00       -5868.13
+ 0  31  32 PRODUTOR   PRESSAO          260.00        1660.61
+ 0  37  46 PRODUTOR   PRESSAO          255.00       -2005.10
+ 2   8  50 PRODUTOR   PRESSAO          260.00         546.55
