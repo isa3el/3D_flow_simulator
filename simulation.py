@@ -17,7 +17,7 @@ from plot_functions import plot_pressure_layers_grid, plot_permeability_layers_g
 
 # Os diretórios disponíveis possuem "60_60_3", "15_15_5" e "5_5_5" no nome apenas para fins de identificação.
 # O simulador é genérico e capaz de rodar reservatórios de qualquer tamanho, desde que os arquivos de entrada estejam no formato esperado.
-# Disponibilizei o código no meu github. É possivel acessar em https://github.com/isa3el/2D_flow_simulator
+# Disponibilizei o código no meu github. É possivel acessar em https://github.com/isa3el/3D_flow_simulator
 # Descomente abaixo o diretório que será utilizado:
 
 data_dir = "Grid_60_60_3"
