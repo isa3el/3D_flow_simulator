@@ -3,10 +3,6 @@ import math
 import matplotlib.pyplot as plt
 
 
-import matplotlib.pyplot as plt
-import math
-import os
-
 def plot_pressure_layers_grid(P, wells, data_dir, max_layers=20):
     """
     Plota até 20 camadas do campo de pressão 3D em subplots (grade única).
