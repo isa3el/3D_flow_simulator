@@ -1,0 +1,38 @@
+[NX NY NZ]
+5 5 5
+
+[DX]
+5 * 50
+[DY]
+5 * 50 
+[DZ]
+5 * 50 
+
+[H]
+10.0
+
+[WELLS]
+3
+INJ 0.2 1 4 4 VAZAO 600.0
+PRO 0.2 2 3 2 PRESSAO 320.0
+PRO 0.2 4 0 1 PRESSAO 300.0
+
+[PREF]
+300.0
+
+[VISREF]
+1.0
+
+[RHOREF]
+800.0
+
+[COMPF]
+5e-5
+
+[COMPR]
+2e-5
+
+[VISPR]
+0.001
+
+

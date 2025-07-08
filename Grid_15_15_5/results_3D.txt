@@ -1,0 +1,18 @@
+=== INFORMAÇÕES DO MODELO ===
+Dimensões da malha: NX=15, NY=15, NZ=5
+dx: [50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
+dy: [50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
+dz: [50.0, 50.0, 50.0, 50.0, 50.0]
+Altura base (h): 10.0 m
+Viscosidade de referência (mu_ref): 1.0 cP
+Densidade de referência (rho_ref): 800.0 kg/m³
+Pressão de referência (p_ref): 300.0 kPa
+Coef. viscosidade (c_mu): 0.001 cP/kPa
+Compressibilidade do fluido (c_f): 5e-05 1/kPa
+Compressibilidade da rocha (c_r): 2e-05 1/kPa
+
+=== RESULTADOS DOS POÇOS ===
+ k   i   j tipo       controle    pressao_kPa   vazao_m3_dia
+ 4   2   3 INJETOR    VAZAO      1374145420546929062461569728197809500684771444545827338703522731697751019066787904764269047192855303838708806235617006580400251532923109376.00         500.00
+ 2   7   7 PRODUTOR   PRESSAO          285.00   -29508745.93
+ 1  12  13 PRODUTOR   PRESSAO          320.00   -11748326.60
