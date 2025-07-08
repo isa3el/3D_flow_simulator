@@ -35,7 +35,10 @@ $$\phi(p) = \phi_{\text{ref}} \cdot \left(1 + c_r(p - p_{\text{ref}})\right)$$
 Aplicando o formalismo do MVF com tratamento implícito dos termos temporais, o balanço de massa em uma célula $i$ é dado por:
 
 $$
-V_i \cdot \frac{(\phi \rho)^{n+1}_i - (\phi \rho)^n_i}{\Delta t^n} + \sum_{k \in \chi_\ell} \lambda_{ik}^{n+1} T_{ik} \left(p_i^{n+1} - p_k^{n+1} + \rho_{ik}^{n+1}(z_i - z_k)\right) - \lambda_{w_i}^{n+1}WI_i(p_i^{n+1} - p_{wf_k}^{n+1}) = 0
+V_i \cdot \frac{(\phi \rho)^{n+1}_i - (\phi \rho)^n_i}{\Delta t^n} 
++ \sum_{k \in \chi_\ell} \lambda_{ik}^{n+1} T_{ik} 
+\left(p_i^{n+1} - p_k^{n+1} + \rho_{ik}^{n+1}(z_i - z_k)\right) 
+- \lambda_{w_i}^{n+1} WI_i \left(p_i^{n+1} - p_{wf_k}^{n+1}\right) = 0
 $$
 
 
